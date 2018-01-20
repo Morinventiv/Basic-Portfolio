@@ -1,29 +1,58 @@
-h1{
+h1 {
     background-color: #4aaaa5;
     color: #f8fcfd;
 		font-family: 'Georgia', Times, Times New Roman, serif;
 		font-size: 2.5em;
 		display: flex;
 		justify-content: flex-start;
-    padding: 40px;
-}
-
-body{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-.nav {
-		display: flex;
-		justify-content: flex-end;
 		padding: 40px;
-		background-color: grey;
+		margin-left: 175px;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 2.25em;
+	padding: 20px 40px;
+	margin: 10px;
+	color: #4aaaa5;
+	border-bottom:solid 2px #dedede;
+}
+
+body {
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		background-color: lightgrey
+}
+
+nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		/* margin: 20px 95px 20px 175px; */
+		background-color: white;
 }
 
 .nav1 a {
 	text-decoration: none;
+	color: darkgray;
 }
 
-nav{
-	display: block;
+.nav1 li {
+	display: inline;
+}
 
+ul.nav1 {
+	margin-right: 175px;
+}
+.main {
+	float: left;
+	width: 700px;
+	margin-top: 40px;
+	margin-left: 300px;
+	border: 3px solid #f7f7f7;
+	background-color: white;
+
+}
+
+.mainPic {
+	float: left;
 }
